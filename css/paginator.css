@@ -1,0 +1,51 @@
+<style type="text/css">
+.paginate2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.paginate {
+	font-family: Arial;
+	font-size: 11px;
+	color: #666;
+	font-weight:bold;
+}
+
+a.paginate {
+	text-decoration:none;
+	background:none;
+	padding:2px 5px 2px 5px;
+	border:#CCC solid 1px;
+	color:#666;
+	font-weight:bold;
+	
+}
+
+
+a.paginate:hover {
+	background: #069;
+	border:#CCCCCC solid 1px;
+	color:#FFF;
+}
+
+a.current {
+	text-decoration:none;
+	background:#d3dcdd;
+	padding:2px 5px 2px 5px;
+	border:#CCCCCC solid 1px;
+	color:#666666;
+	cursor: inherit;
+}
+
+span.inactive {
+	border: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+	padding: 2px 6px 2px 6px;
+	color: #999;
+	cursor: default;
+}
+
+
+</style>
+<script>
